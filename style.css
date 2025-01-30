@@ -1,0 +1,625 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x:hidden;
+
+}
+
+ .headerHero{
+    background-image: url(IMAGES/Hero\ back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    align-items: center;
+ }
+
+ nav{
+    display: flex;
+    gap: 2rem;
+ }
+
+nav li{
+color: #FFFFFF;
+font-family: Lato;
+font-size: 16px;
+font-weight: 500;
+line-height: 21.86px;
+list-style-type: none;
+}
+
+.btn button{
+    background:#1BC768 ;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21.86px;
+    border: none;
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background: #FFFFFF;
+    color: #1BC768;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.heroBtn button{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+    background: none;
+    border:1px solid #FFFFFF; 
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    color: #FFFFFF;
+    margin-right: 1rem;
+    border-radius: 50px;
+}
+
+.heroInput input{
+    width: 60%;
+    padding: 0.4rem;
+    border-radius: 50px 0 0 50px;
+    border: 1px solid #FFFFFF;
+}
+
+.heroInput button{
+    width: 20%;
+    padding: 0.4rem;
+    background: #1BC768;
+    color: #FFFFFF;
+    border: 2px solid #1BC768;
+    margin-left: -5px;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+}
+
+.heroInput{
+    margin-top: 2rem;
+}
+.heroBtn button:hover{
+    background: #FFFFFF;
+    color: #043CAA;
+}
+
+.textside h2 {
+font-family: Lato;
+font-size: 48px;
+font-weight: 900;
+line-height: 65.57px;
+color: #FFFFFF;
+}
+
+.textside p{
+    font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.59px;
+color: #FFFFFF ;
+width: 85%;
+padding: 2rem 0;
+}
+
+.textside{
+    width: 50%;
+}
+
+.heroInput{
+    font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.86px;
+border: none;
+border-radius: 50px;
+}
+.key-Benefits-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.key-Benefits-heading{
+    font-family: Lato;
+    color: #043CAA;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 49.18px;
+}
+
+.key-Benefits-underline{
+display: flex;
+justify-content: center;
+margin: auto;
+width: 50%;
+}
+
+.blue-bar{
+    width: 10%;
+    height: 5px;
+    background-color: #043CAA;
+    border: 1px solid #043CAA;
+    border-radius: 50px 0 0 50px;
+}
+
+.green-bar{
+    width: 10%;
+    height: 5px;
+    background-color: #1BC768;
+    border: 1px solid #1BC768;
+    border-radius: 0 50px 50px 0;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+
+h4{
+    font-family: Lato;
+    line-height: 30px;
+    font-size: 24px;
+    color: #043CAA;
+    padding: 20px;
+    margin: 10px;  margin-bottom: -1.5rem; 
+}
+
+ul{
+  padding: 20px;
+  list-style-image: url(IMAGES/dot.png);
+  list-style-position: inside;
+}
+
+li{
+    font-family: Lato;
+    list-style-type:none;
+    color:  #333333;
+    padding: 5px;
+    font-weight: 400;
+}
+.text-containerbtn button{
+    padding: 0.5rem 2rem ;
+    margin: 8px;
+    margin-top: 0.5px; margin-left: 30px;
+    border-radius: 30px;
+    background-color: white;
+    color: #1BC768;
+    border: 1px solid ;
+}
+
+.affiliations{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+}
+.topAffiliate h2{
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 49.18px;
+    color:  #043CAA;
+}
+.affiliateLines{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+.line1{
+    width: 10%;
+    height: 5px;
+    background-color: #043CAA;
+    border: 1px solid #043CAA;
+    border-radius: 50px 0 0 50px;
+}
+.line2{
+    width: 10%;
+    height: 5px;
+    background-color: #1BC768;
+    border: 1px solid #1BC768;
+    border-radius: 0 50px 50px 0;
+}
+.affiliate{
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.affiliate img{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.doorstep{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.doorstepInput h4{
+    font-family: Lato;
+    font-size: 24px;
+    color: #043CAA;
+    padding-bottom: 2rem;
+    margin: 10px; margin-bottom: -1.5rem;
+    width: 60%;
+}
+.doorstep Button{
+    font-family: Lato;
+    padding: 0.5rem 2rem ;
+    background: none;
+    margin-left: 30px;
+    border-radius: 30px;
+    color: #1BC768;
+    border:#1BC768 1px solid ;
+    cursor: pointer;
+}
+.doorstep ul{
+    list-style-image: url(IMAGES/dot.png);
+    list-style-position: inside;
+}
+.doorstep li{
+    /* list-style-type: none; */
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24.59px;
+    color: #333333;
+    padding: 5px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.profileInput h4{
+    font-family: Lato;
+    font-size: 24px;
+    color: #043CAA;
+    padding-bottom: 2rem;
+    margin: 10px; margin-bottom: -1.5rem;
+    width: 60%;
+}
+.profile Button{
+    font-family: Lato;
+    padding: 0.5rem 2rem ;
+    background: none;
+    margin-left: 30px;
+    border-radius: 30px;
+    color: #1BC768;
+    border:#1BC768 1px solid ;
+    cursor: pointer;
+}
+.clients{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.clientsTop h2{
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 49.18px;
+    color: #000000;
+    /* padding: 50px; */
+}
+.clientsLines{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding-right: 8rem;
+    /* margin: auto; */
+}
+/* .line1{
+    width: 10%;
+    height: 5px;
+    background-color: #043CAA;
+    border: 1px solid #043CAA;
+    border-radius: 50px 0 0 50px;
+}
+.line2{
+    width: 10%;
+    height: 5px;
+    background-color: #1BC768;
+    border: 1px solid #1BC768;
+    border-radius: 0 50px 50px 0;
+} */
+ .Medicineimage img{
+    width: 100%;
+ }
+ .doorstep-image img{
+    width: 100%;
+ }
+ .profileImage img{
+    width: 100%;
+ }
+ .clientsImage img{
+    width: 100%;
+ }
+ .imageside img{
+    width: 100%;
+ }
+.clientsInput p{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    width: 65%;
+    color: #7A7A7A;
+    margin: 30px 0 15px 0;
+}
+.clientsInput h5{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    color: #043CAA;
+
+}
+.clientsInput{
+    width: 25%;
+}
+.clientsImage{
+    width: 100%;
+}
+.clientsDot{
+    margin: 25px 0 0 10px;
+}
+
+footer{
+    background-color: #043CAA;
+    padding: 4rem 0 1rem;
+}
+.footerWrap{
+    width: 80%;
+    margin: auto;
+}
+
+.newsletter{
+    display: flex;
+    margin-bottom: 2rem;
+    gap: 3rem;
+}
+.signUp{
+    width: 33%;
+}
+.email{
+    width: 35%;
+}
+.signUp h3{
+    font-family: Lato;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 900;
+    line-height: 32.78px;
+}
+.signUp p{
+    font-family: Lato;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 24.59px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    /* width: 80%; */
+}
+.email label{
+    margin-bottom: 1rem;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.59px;
+}
+.email input{
+    width: 70%;
+    padding: 1rem 0.4rem;
+    border-radius: 50px 0 0 50px;
+    border: 1px solid white;
+}
+.email button{
+    width: 30%;
+    padding: 1rem 0.4rem;
+    background: #1BC768;
+    color: #FFFFFF;
+    border: 2px solid #1BC768;
+    margin-left: -5px;
+    cursor: pointer;
+    border-radius: 0 50px 50px 0;
+    margin-top: 1rem;
+}
+.footLinks{
+    display: flex;
+    gap: 15rem;
+}
+.footRight{
+    display: flex;
+    gap: 4rem;
+}
+.footLeft p{
+    font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.59px;
+color: #FFFFFF;
+padding-top: 1rem;
+}
+.quickLinks h5{
+    font-family: Lato;
+font-size: 18px;
+font-weight: 800;
+line-height: 24.59px;
+color: #FFFFFF;
+padding-bottom: 1.5rem;
+}
+.quickLinks p{
+    font-family: Lato;
+font-size: 16px;
+font-weight: 400;
+line-height: 21.86px;
+color: #FFFFFF;
+padding-bottom: 1rem;
+}
+.footLeft{
+    width: 20%;
+}
+.footRight{
+    width: 50%;
+}
+.copyright{
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.86px;
+    padding-top: 4rem;
+    color: #FFFFFF;
+}
+.doorstep-image img{
+    width: 80%;
+}
+
+@media  (max-width: 1024px) {
+  .textside{
+    width: 58%;
+}
+ .textside p{
+    width: 98%;
+ }
+ .heroInput input{
+    width: 74%;
+ }
+ .clientsImage{
+    width: 50%;
+ }
+ .newsletter{
+    gap: 10rem;
+ }
+ .signUp{
+    width: 60%;
+ }
+ .email{
+    width: 40%;
+ }
+.footLinks{
+    gap: 8rem;
+}
+.footRight{
+    gap: 4rem;
+    width: 70%;
+}
+.footLeft{
+    width: 30%;
+}
+}
+
+@media  (max-width: 768px) {
+    .textside h2{
+        font-size: 38px;
+        line-height: 45.57px;
+    }
+    .textside p{
+        font-size: 16px;
+        width: 95%;
+    }
+    .heroInput input{
+        width: 60%;
+    }
+    .heroInput button{
+        width: 25%;
+    }
+    .textside{
+        width: 65%;
+    }
+    .imageside{
+        width: 40%;
+    }
+    .heroBtn button{
+        font-size: 16px;
+        padding: 0.5rem 1.5rem;
+        margin-right: 0.5rem;
+    }
+    .main-container li{
+        font-size: 13px;
+    }
+    .doorstepInput h4{
+
+    }
+    .clientsTop h2{
+        font-size: 25px;
+    }
+    .clientsInput p{
+        width: 70%;
+}
+    .clientsInput h5{
+        font-size: 13px;
+    }
+    .profileInput h4{
+        width: 85%;
+    }
+    .profileInput li{
+        width: 80%;
+    }
+    .signUp{
+        width: 65%;
+    }
+    .email{
+        width:60%;
+    }
+    .signUp h3{
+        font-size: 18px;
+    }
+    .signUp p{
+        font-size: 14px;
+    }
+    .newsletter{
+        gap: 5rem;
+    }
+    .footLinks{
+        gap: 5rem;
+    }
+    .footRight{
+        width: 70%;
+        gap: 2rem;
+    }
+    .footLeft{
+        width: 30%;
+    }
+    .footLeft p{
+        font-size: 14px;
+    }
+    .quickLinks h5{
+        font-size: 14px;
+    }
+    .quickLinks p{
+        font-size: 14px;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+}
