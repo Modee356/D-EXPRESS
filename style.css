@@ -177,33 +177,36 @@ width: 50%;
     justify-content: space-around;
     margin-top: 35px;
 }
-
+.medicineImage{
+    width: 50%;
+}
 h4{
     font-family: Lato;
     line-height: 30px;
     font-size: 24px;
     color: #043CAA;
     padding: 20px;
-    margin: 10px;  margin-bottom: -1.5rem; 
+    margin-bottom: 0.5rem; 
 }
 
 ul{
-  padding: 20px;
+  /* padding: 20px; */
   list-style-image: url(IMAGES/dot.png);
   list-style-position: inside;
 }
 
 li{
     font-family: Lato;
-    list-style-type:none;
     color:  #333333;
     padding: 5px;
     font-weight: 400;
+    font-size: 18px;
+    line-height: 24.59px;
 }
 .text-containerbtn button{
     padding: 0.5rem 2rem ;
     margin: 8px;
-    margin-top: 0.5px; margin-left: 30px;
+    margin-top: 1rem; 
     border-radius: 30px;
     background-color: white;
     color: #1BC768;
@@ -245,8 +248,8 @@ li{
 }
 .affiliate{
     margin-top: 3rem;
-    align-items: center;
-    justify-content: space-evenly;
+    /* align-items: center;
+    justify-content: space-evenly; */
 }
 .affiliate img{
     margin-left: 2rem;
@@ -258,6 +261,7 @@ li{
     align-items: center;
     width: 80%;
     margin: auto;
+    gap: 4rem;
 }
 .doorstepInput h4{
     font-family: Lato;
@@ -281,14 +285,16 @@ li{
     list-style-image: url(IMAGES/dot.png);
     list-style-position: inside;
 }
-.doorstep li{
-    /* list-style-type: none; */
+.doorstepInput li{
     font-family: Lato;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 24.59px;
     color: #333333;
     padding: 5px;
+}
+.doorstep-image{
+    width: 50%;
 }
 .profile{
     display: flex;
@@ -315,25 +321,27 @@ li{
     border:#1BC768 1px solid ;
     cursor: pointer;
 }
-.clients{
+.clients {
     display: flex;
     align-items: center;
-    margin: auto;
+    justify-content: space-between;
+    width: 85%;
+    padding-bottom: 5rem;
 }
-.clientsTop h2{
+
+.clientstop h2{
     font-family: Lato;
-    font-size: 36px;
-    font-weight: 800;
+    font-size: 28px;
+    font-weight: 900;
     line-height: 49.18px;
     color: #000000;
-    /* padding: 50px; */
 }
 .clientsLines{
     display: flex;
     justify-content: center;
     width: 80%;
-    padding-right: 8rem;
-    /* margin: auto; */
+    padding-bottom: 2rem;
+    margin: auto;
 }
 /* .line1{
     width: 10%;
@@ -349,7 +357,7 @@ li{
     border: 1px solid #1BC768;
     border-radius: 0 50px 50px 0;
 } */
- .Medicineimage img{
+ .medicineImage img{
     width: 100%;
  }
  .doorstep-image img{
@@ -369,9 +377,7 @@ li{
     font-size: 18px;
     font-weight: 400;
     line-height: 32.4px;
-    width: 65%;
     color: #7A7A7A;
-    margin: 30px 0 15px 0;
 }
 .clientsInput h5{
     font-family: Lato;
@@ -379,16 +385,14 @@ li{
     font-weight: 400;
     line-height: 32.4px;
     color: #043CAA;
-
+    padding-bottom: 2rem;
+    padding-top: 1rem;
 }
-.clientsInput{
+.clientsText{
     width: 25%;
 }
 .clientsImage{
-    width: 100%;
-}
-.clientsDot{
-    margin: 25px 0 0 10px;
+    width: 60%;
 }
 
 footer{
@@ -403,7 +407,7 @@ footer{
 .newsletter{
     display: flex;
     margin-bottom: 2rem;
-    gap: 3rem;
+    gap: 5rem;
 }
 .signUp{
     width: 33%;
@@ -426,7 +430,6 @@ footer{
     line-height: 24.59px;
     margin-top: 1rem;
     margin-bottom: 3rem;
-    /* width: 80%; */
 }
 .email label{
     margin-bottom: 1rem;
@@ -500,9 +503,6 @@ padding-bottom: 1rem;
     padding-top: 4rem;
     color: #FFFFFF;
 }
-.doorstep-image img{
-    width: 80%;
-}
 
 @media  (max-width: 1024px) {
   .textside{
@@ -565,16 +565,13 @@ padding-bottom: 1rem;
         margin-right: 0.5rem;
     }
     .main-container li{
-        font-size: 13px;
-    }
-    .doorstepInput h4{
-
+        font-size: 10px;
     }
     .clientsTop h2{
         font-size: 25px;
     }
     .clientsInput p{
-        width: 70%;
+        font-size: 15px;
 }
     .clientsInput h5{
         font-size: 13px;
@@ -583,7 +580,16 @@ padding-bottom: 1rem;
         width: 85%;
     }
     .profileInput li{
-        width: 80%;
+        font-size: 12px;
+    }
+    .profileImage{
+        width: ;
+    }
+    .doorstepInput h4{
+        width: 85%;
+    }
+    .doorstepInput li{
+        font-size: 11px;
     }
     .signUp{
         width: 65%;
@@ -621,5 +627,127 @@ padding-bottom: 1rem;
     }
     .copyright{
         font-size: 14px;
+    }
+}
+@media (max-width: 425px) {
+    nav{
+       display: none;
+    }
+    .btn{
+        display: none;
+    }
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .textside{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .imageside{
+        width: 100%;
+    }
+    .heroInput input{
+        width: 70%;
+    }
+    .headerHero{
+        padding-bottom: 3rem;
+    }
+    .affiliate{
+        width: 50%;
+        margin: auto;
+    }
+    .affiliate img{
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .text-container{
+        width: 100%;
+    }
+    .text-container h4{
+        width: 60%;
+    }
+    .text-container li{
+       font-size: 17px;
+    }
+    .doorstep{
+        flex-direction: column-reverse;
+    }
+    .doorstepInput{
+        width: 100%;
+    }
+    .doorstepInput h4{
+        width: 80%;
+    }
+    .doorstepInput li{
+       font-size: 17px;
+    }
+    .profile{
+        flex-direction: column;
+    }
+    .profileInput{
+        width: 100%;
+    }
+    .profileInput h4{
+        width: 80%;
+    }
+    .profileInput li{
+       font-size: 16px;
+    }
+    .clients{
+        flex-direction: column;
+    }
+    .clientsImage{
+        width: 100%;
+    }
+    .clientsText{
+        width: 90%;
+        margin: auto;
+    }
+    .clientsInput p{
+        font-size: 16px;
+    }
+    .clientsInput h5{
+        font-size: 18px;
+    }
+    .newsletter{
+        flex-direction: column;
+    }
+    .signUp{
+        width: 100%;
+    }
+    .email{
+        width: 100%;
+    }
+    .footLinks{
+        flex-direction: column;
+    }
+    .footRight{
+        width: 100%;
+        display: block;
+    }
+    .footLeft{
+        width: 100%;
+    }
+    .signUp p{
+        font-size: 18px;
+    }
+    .signUp h3{
+        font-size: 24px;
+    }
+    .footLeft p{
+        font-size: 18px;
+    }
+    .quickLinks h5{
+        font-size: 18px;
+    }
+    .quickLinks p{
+        font-size: 18px;
+    }
+    .quickLinks{
+        margin-bottom: 1rem;
     }
 }
