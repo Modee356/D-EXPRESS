@@ -35,6 +35,10 @@ font-size: 16px;
 font-weight: 500;
 line-height: 21.86px;
 list-style-type: none;
+text-decoration: none;
+}
+a{
+    text-decoration: none;
 }
 
 .btn button{
@@ -177,9 +181,9 @@ width: 50%;
     justify-content: space-around;
     margin-top: 35px;
 }
-.medicineImage{
+/* .medicineImage{
     width: 50%;
-}
+} */
 h4{
     font-family: Lato;
     line-height: 30px;
@@ -205,12 +209,13 @@ li{
 }
 .text-containerbtn button{
     padding: 0.5rem 2rem ;
-    margin: 8px;
+    margin: 7px;
     margin-top: 1rem; 
     border-radius: 30px;
     background-color: white;
     color: #1BC768;
     border: 1px solid ;
+    cursor: pointer;
 }
 
 .affiliations{
@@ -267,15 +272,15 @@ li{
     font-family: Lato;
     font-size: 24px;
     color: #043CAA;
-    padding-bottom: 2rem;
-    margin: 10px; margin-bottom: -1.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
     width: 60%;
 }
 .doorstep Button{
     font-family: Lato;
     padding: 0.5rem 2rem ;
     background: none;
-    margin-left: 30px;
+    margin: 1rem 0 0 0.5rem;
     border-radius: 30px;
     color: #1BC768;
     border:#1BC768 1px solid ;
@@ -293,9 +298,6 @@ li{
     color: #333333;
     padding: 5px;
 }
-.doorstep-image{
-    width: 50%;
-}
 .profile{
     display: flex;
     justify-content: space-between;
@@ -307,15 +309,14 @@ li{
     font-family: Lato;
     font-size: 24px;
     color: #043CAA;
-    padding-bottom: 2rem;
-    margin: 10px; margin-bottom: -1.5rem;
+    margin-bottom: 0.5rem;
     width: 60%;
 }
 .profile Button{
     font-family: Lato;
     padding: 0.5rem 2rem ;
     background: none;
-    margin-left: 30px;
+    margin: 1rem 0 0 0.5rem;
     border-radius: 30px;
     color: #1BC768;
     border:#1BC768 1px solid ;
@@ -339,7 +340,6 @@ li{
 .clientsLines{
     display: flex;
     justify-content: center;
-    width: 80%;
     padding-bottom: 2rem;
     margin: auto;
 }
@@ -389,11 +389,11 @@ li{
     padding-top: 1rem;
 }
 .clientsText{
-    width: 25%;
+    width: 30%;
 }
-.clientsImage{
-    width: 60%;
-}
+/* .clientsImage{
+    width: 50%;
+} */
 
 footer{
     background-color: #043CAA;
@@ -582,9 +582,9 @@ padding-bottom: 1rem;
     .profileInput li{
         font-size: 12px;
     }
-    .profileImage{
+    /* .profileImage{
         width: ;
-    }
+    } */
     .doorstepInput h4{
         width: 85%;
     }
